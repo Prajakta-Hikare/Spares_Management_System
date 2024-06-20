@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spare Parts Indent</title>
+    <link rel="stylesheet" href="spi.css">
+</head>
+
+<body>
+    <header>
+        <h1>Spares Management System</h1>
+    </header>
+    <section class="container">
+        <div class="sidebar">
+            <div class="svg-container">
+                <ul
+                    class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center align-items-center">
+                    <li class="nav-item">
+                        <a href="first.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Home">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-users">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                                <circle cx="9" cy="7" r="4" />
+                                <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="first.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Dashboard">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-database-backup">
+                                <ellipse cx="12" cy="5" rx="9" ry="3" />
+                                <path d="M3 12a9 3 0 0 0 5 2.69" />
+                                <path d="M21 9.3V5" />
+                                <path d="M3 5v14a9 3 0 0 0 6.47 2.88" />
+                                <path d="M12 12v4h4" />
+                                <path d="M13 20a5 5 0 0 0 9-3 4.5 4.5 0 0 0-4.5-4.5c-1.33 0-2.54.54-3.41 1.41L12 16" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="first.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Orders">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-cpu">
+                                <rect x="4" y="4" width="16" height="16" rx="2" />
+                                <rect x="9" y="9" width="6" height="6" />
+                                <path d="M15 2v2" />
+                                <path d="M15 20v2" />
+                                <path d="M2 15h2" />
+                                <path d="M2 9h2" />
+                                <path d="M20 15h2" />
+                                <path d="M20 9h2" />
+                                <path d="M9 2v2" />
+                                <path d="M9 20v2" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="first.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Products">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-wallet-cards">
+                                <rect width="18" height="18" x="3" y="3" rx="2" />
+                                <path d="M3 9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2" />
+                                <path
+                                    d="M3 11h3c.8 0 1.6.3 2.1.9l1.1.9c1.6 1.6 4.1 1.6 5.7 0l1.1-.9c.5-.5 1.3-.9 2.1-.9H21" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="first.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                            data-bs-placement="right" data-bs-original-title="Customers">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-layers-3">
+                                <path
+                                    d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z" />
+                                <path
+                                    d="m6.08 9.5-3.5 1.6a1 1 0 0 0 0 1.81l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9a1 1 0 0 0 0-1.83l-3.5-1.59" />
+                                <path
+                                    d="m6.08 14.5-3.5 1.6a1 1 0 0 0 0 1.81l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9a1 1 0 0 0 0-1.83l-3.5-1.59" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="sparePartsIndentForm">
+            <h1>Spare Parts Indent</h1>
+            <form id="sparePartsIndentFor">
+                <!-- Attributes: Indent Number -->
+                <label for="indentNumber">Indent Number:</label>
+                <input type="text" id="indentNumber" readonly>
+
+                <!-- Attributes: Date -->
+                <label for="date">Date:</label>
+                <input type="text" id="date" readonly>
+
+                <!-- Attributes: Prepared By -->
+                <label for="preparedBy">Prepared By:</label>
+                <input type="text" id="preparedBy" readonly>
+
+                <!-- Attributes: Select Department -->
+                <label for="selectDepartment">Select Department:</label>
+                <select id="selectDepartment" required>
+                    <!-- Populate department options dynamically -->
+                    <option value="dept1">Department 1</option>
+                    <option value="dept2">Department 2</option>
+                    <!-- Add more options as needed -->
+                </select>
+
+                <!-- Attributes: Select Machine / Equipment -->
+                <label for="selectMachine">Select Machine / Equipment:</label>
+                <select id="selectMachine" required>
+                    <!-- Populate machine options dynamically based on selected department -->
+                    <!-- Add more options as needed -->
+                </select>
+
+                <!-- Attributes: Select Sub-Assembly -->
+                <label for="selectSubAssembly">Select Sub-Assembly:</label>
+                <select id="selectSubAssembly" required>
+                    <!-- Populate sub-assembly options dynamically based on selected machine -->
+                    <!-- Add more options as needed -->
+                </select>
+
+                <!-- Attributes: Select Spares Category -->
+                <label for="selectCategory">Select Spares Category:</label>
+                <select id="selectCategory" required>
+                    <!-- Populate category options dynamically -->
+                    <!-- Add more options as needed -->
+                </select>
+
+                <!-- Attributes: Select Spares Group -->
+                <label for="selectGroup">Select Spares Group:</label>
+                <select id="selectGroup" required>
+                    <!-- Populate group options dynamically -->
+                    <!-- Add more options as needed -->
+                </select>
+
+                <!-- Attributes: Enter Part Number -->
+                <label for="partNumber">Enter Part Number:</label>
+                <input type="text" id="partNumber">
+
+                <!-- Attributes: Select Part by Description -->
+                <label for="selectPart">Select Part by Description:</label>
+                <select id="selectPart">
+                    <!-- Populate part options dynamically based on entered filters -->
+                    <!-- Add more options as needed -->
+                </select>
+
+                <!-- Attributes: Required Quantity -->
+                <label for="requiredQuantity">Required Quantity:</label>
+                <input type="number" id="requiredQuantity" required>
+
+                <!-- Attributes: Unit -->
+                <label for="unit">Unit:</label>
+                <input type="text" id="unit" readonly>
+
+                <button type="button" onclick="addSparePart()">Add Spare Part</button>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="spi.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Company Section Styles */
+header {
+    background-color: rgba(137, 63, 155, 0.33);
+    color: black;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 150px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #222;
+    box-sizing: border-box;
+}
+
+.sidebar h1 {
+    font-size: 1.5em;
+}
+
+.nav-pills {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-link {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+.svg-container {
+    padding: 10px;
+}
+
+.section-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#categoryApp {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#categoryApp h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#categoryList {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.category-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.category-item hr {
+    margin: 15px 0;
+}
+
+.category-item {
+    position: relative;
+}
+
+.category-item button {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}

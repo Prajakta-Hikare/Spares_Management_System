@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined System</title>
+    <link rel="stylesheet" href="spm.css">
+</head>
+
+<body>
+    <header>
+        <h1>Spares Management System</h1>
+    </header>
+
+    <section class="container">
+        <div class="container">
+            <div class="sidebar">
+                <div class="svg-container">
+                    <ul
+                        class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center align-items-center">
+                        <li class="nav-item">
+                            <a href="first.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                                data-bs-placement="right" data-bs-original-title="Home">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-users">
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                                    <circle cx="9" cy="7" r="4" />
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="first.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                                data-bs-placement="right" data-bs-original-title="Dashboard">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-database-backup">
+                                    <ellipse cx="12" cy="5" rx="9" ry="3" />
+                                    <path d="M3 12a9 3 0 0 0 5 2.69" />
+                                    <path d="M21 9.3V5" />
+                                    <path d="M3 5v14a9 3 0 0 0 6.47 2.88" />
+                                    <path d="M12 12v4h4" />
+                                    <path
+                                        d="M13 20a5 5 0 0 0 9-3 4.5 4.5 0 0 0-4.5-4.5c-1.33 0-2.54.54-3.41 1.41L12 16" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="first.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                                data-bs-placement="right" data-bs-original-title="Orders">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-cpu">
+                                    <rect x="4" y="4" width="16" height="16" rx="2" />
+                                    <rect x="9" y="9" width="6" height="6" />
+                                    <path d="M15 2v2" />
+                                    <path d="M15 20v2" />
+                                    <path d="M2 15h2" />
+                                    <path d="M2 9h2" />
+                                    <path d="M20 15h2" />
+                                    <path d="M20 9h2" />
+                                    <path d="M9 2v2" />
+                                    <path d="M9 20v2" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="first.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                                data-bs-placement="right" data-bs-original-title="Products">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-wallet-cards">
+                                    <rect width="18" height="18" x="3" y="3" rx="2" />
+                                    <path d="M3 9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2" />
+                                    <path
+                                        d="M3 11h3c.8 0 1.6.3 2.1.9l1.1.9c1.6 1.6 4.1 1.6 5.7 0l1.1-.9c.5-.5 1.3-.9 2.1-.9H21" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="first.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                                data-bs-placement="right" data-bs-original-title="Customers">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-layers-3">
+                                    <path
+                                        d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z" />
+                                    <path
+                                        d="m6.08 9.5-3.5 1.6a1 1 0 0 0 0 1.81l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9a1 1 0 0 0 0-1.83l-3.5-1.59" />
+                                    <path
+                                        d="m6.08 14.5-3.5 1.6a1 1 0 0 0 0 1.81l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9a1 1 0 0 0 0-1.83l-3.5-1.59" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <div id="sparePartsForm">
+        <h1>Spare Parts Master</h1>
+        <form id="sparePartsFor" onsubmit="submitForm(event)">
+            <label for="partID">Part ID:</label>
+            <input type="text" id="partID" name="partID" disabled>
+            
+            <label for="partNumber">Part Number / SKU:</label>
+            <input type="text" id="partNumber" name="partNumber" required>
+            
+            <label for="partName">Part Name / Description:</label>
+            <input type="text" id="partName" name="partName" required>
+    
+            <label for="selectDepartment">Select Department:</label>
+            <select id="selectDepartment" name="selectDepartment" required>
+                <!-- Options will be dynamically populated using JavaScript -->
+            </select>
+    
+            <label for="selectMachine">Select Machine / Equipment:</label>
+            <select id="selectMachine" name="selectMachine" required>
+                <!-- Options will be dynamically populated using JavaScript -->
+            </select>
+    
+            <label for="usedFor">Used For (Sub-Assembly Name):</label>
+            <input type="text" id="usedFor" name="usedFor">
+    
+            <label for="selectSpareCategory">Select Spare Category:</label>
+            <select id="selectSpareCategory" name="selectSpareCategory" required>
+                <!-- Options will be dynamically populated using JavaScript -->
+            </select>
+    
+            <label for="selectSpareGroup">Select Spare Group:</label>
+            <select id="selectSpareGroup" name="selectSpareGroup" required>
+                <!-- Options will be dynamically populated using JavaScript -->
+            </select>
+    
+            <label for="selectStorageCabinet">Select Storage Cabinet:</label>
+            <select id="selectStorageCabinet" name="selectStorageCabinet" required>
+                <!-- Options will be dynamically populated using JavaScript -->
+            </select>
+    
+            <label for="selectBinCrate">Select Bin / Crate:</label>
+            <select id="selectBinCrate" name="selectBinCrate">
+                <!-- Options will be dynamically populated using JavaScript -->
+            </select>
+    
+            <label for="baseUnit">Base Unit of Measurement:</label>
+            <select id="baseUnit" name="baseUnit" required>
+                <option value="Numbers">Numbers</option>
+                <option value="Kilograms">Kilograms</option>
+                <option value="Liters">Liters</option>
+            </select>
+    
+            <label for="packagingUnit">Packaging / Supply Unit:</label>
+            <input type="text" id="packagingUnit" name="packagingUnit">
+    
+            <label for="quantityPerPackagingUnit">Quantity per Packaging Unit:</label>
+            <input type="text" id="quantityPerPackagingUnit" name="quantityPerPackagingUnit">
+    
+            <label for="reorderStockLevel">Set Reorder Stock Level:</label>
+            <input type="text" id="reorderStockLevel" name="reorderStockLevel">
+    
+            <label for="criticalStockLevel">Set Critical Stock Level:</label>
+            <input type="text" id="criticalStockLevel" name="criticalStockLevel">
+    
+            <label for="hsnCode">HSN Code:</label>
+            <input type="text" id="hsnCode" name="hsnCode" required>
+    
+            <label for="uploadDrawing">Upload Drawing / Photo:</label>
+            <input type="file" id="uploadDrawing" name="uploadDrawing">
+    
+            <label for="status">Status:</label>
+            <select id="status" name="status" required>
+                <option value="Active">Active</option>
+                <option value="Inactive">Inactive</option>
+            </select>
+    
+            <!-- Add more fields based on your specifications -->
+    
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+    <script src="spm.js"></script>
+</body>
+
+</html>

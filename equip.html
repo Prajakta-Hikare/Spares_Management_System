@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spare Management System</title>
+    <link rel="stylesheet" href="equip.css">
+</head>
+
+<body>
+    <header>
+        <h1>Spares Management System</h1>
+    </header>
+    <section class="container">
+            <div class="sidebar">
+                <div class="svg-container">
+                    <ul
+                        class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center align-items-center">
+                        <li class="nav-item">
+                            <a href="first.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                                data-bs-placement="right" data-bs-original-title="Home">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-users">
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                                    <circle cx="9" cy="7" r="4" />
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="first.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                                data-bs-placement="right" data-bs-original-title="Dashboard">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-database-backup">
+                                    <ellipse cx="12" cy="5" rx="9" ry="3" />
+                                    <path d="M3 12a9 3 0 0 0 5 2.69" />
+                                    <path d="M21 9.3V5" />
+                                    <path d="M3 5v14a9 3 0 0 0 6.47 2.88" />
+                                    <path d="M12 12v4h4" />
+                                    <path
+                                        d="M13 20a5 5 0 0 0 9-3 4.5 4.5 0 0 0-4.5-4.5c-1.33 0-2.54.54-3.41 1.41L12 16" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="first.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                                data-bs-placement="right" data-bs-original-title="Orders">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-cpu">
+                                    <rect x="4" y="4" width="16" height="16" rx="2" />
+                                    <rect x="9" y="9" width="6" height="6" />
+                                    <path d="M15 2v2" />
+                                    <path d="M15 20v2" />
+                                    <path d="M2 15h2" />
+                                    <path d="M2 9h2" />
+                                    <path d="M20 15h2" />
+                                    <path d="M20 9h2" />
+                                    <path d="M9 2v2" />
+                                    <path d="M9 20v2" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="first.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                                data-bs-placement="right" data-bs-original-title="Products">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-wallet-cards">
+                                    <rect width="18" height="18" x="3" y="3" rx="2" />
+                                    <path d="M3 9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2" />
+                                    <path
+                                        d="M3 11h3c.8 0 1.6.3 2.1.9l1.1.9c1.6 1.6 4.1 1.6 5.7 0l1.1-.9c.5-.5 1.3-.9 2.1-.9H21" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="first.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip"
+                                data-bs-placement="right" data-bs-original-title="Customers">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-layers-3">
+                                    <path
+                                        d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z" />
+                                    <path
+                                        d="m6.08 9.5-3.5 1.6a1 1 0 0 0 0 1.81l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9a1 1 0 0 0 0-1.83l-3.5-1.59" />
+                                    <path
+                                        d="m6.08 14.5-3.5 1.6a1 1 0 0 0 0 1.81l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9a1 1 0 0 0 0-1.83l-3.5-1.59" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                <div id="app">
+                    <h1>Machines/Equipment</h1>
+
+                    <form id="machineForm">
+                        <label for="selectDepartment">Select Department:</label>
+                        <select id="selectDepartment" required>
+                            <!-- Options will be dynamically populated -->
+                        </select>
+
+                        <label for="machineName">Machine/Equipment Name:</label>
+                        <input type="text" id="machineName" required>
+
+                        <label for="additionalDescription">Additional Description:</label>
+                        <textarea id="additionalDescription"></textarea>
+
+                        <button type="button" onclick="addMachine()">Add Machine</button>
+                    </form>
+
+                    <div id="machineList">
+                        <!-- Display the list of machines here -->
+                    </div>
+                </div>
+    </section>
+    <script src="equip.js"></script>
+</body>
+
+</html>

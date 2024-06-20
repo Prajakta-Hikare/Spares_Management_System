@@ -1,0 +1,169 @@
+body {
+    background: rgb(255, 255, 255);
+    
+
+}
+nav {
+    display: Flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgba(137, 63, 155, 0.33);
+    color: white;
+}
+
+nav img {
+    height: 60px;
+}
+
+nav .left {
+    padding: 10px;
+}
+
+s nav .right {
+    padding: 10px;
+}
+
+nav h1 {
+    color: black;
+}
+
+footer {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.cont{
+    overflow-y: hidden;
+    height: 100%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    /* Updated styles for column layout */
+    flex-direction: column;
+    padding: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+.dropdown-content a {
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.form-control {
+    transition: background-color 0.3s ease;
+}
+
+.form-control:hover {
+    background-color: #f0f0f0; /* You can customize the color */
+}
+
+.form-control:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* You can customize the shadow */
+}
+
+.custom-btn {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.custom-btn svg {
+    fill: black;
+}
+.popup.overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 150vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+.popup .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    background: #fff;
+    width: 450px;
+    height: 220px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.popup .close-btn {
+    position: absolute;
+    right:20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background: #222;
+    color:#fff;
+    font-size: 25x;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.popup.active .overlay {
+    display: block;
+}
+
+.popup.active .content{
+    transition:all 300ms ease-in-out;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgba(137, 63, 155, 0.33);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
